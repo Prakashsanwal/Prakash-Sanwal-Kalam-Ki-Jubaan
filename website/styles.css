@@ -1,0 +1,231 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    border-bottom: 1px solid #ddd;
+}
+
+/* User Banner */
+.user-banner {
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.author-avatar.me-3{
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #000;
+
+}
+.user-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #000;
+}
+
+/* Blog Card */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    overflow: hidden;
+    position: relative;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-body {
+    padding: 15px;
+}
+
+/* Category Label - Positioned on the Right */
+.category-label {
+    font-size: 14px;
+    padding: 5px 10px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+/* Search Bar */
+#searchInput {
+    width: 300px;
+    max-width: 100%;
+}
+
+/* Author Section */
+.author-avatar-sm {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid #007bff;
+}
+
+/* Related Posts Section */
+.related-posts-container {
+    margin-top: 40px;
+}
+
+.related-posts-container .card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.related-posts-container .card:hover {
+    transform: scale(1.05);
+}
+
+
+/* Footer */
+footer {
+    background: #f8f9fa;
+    padding: 20px;
+}
+
+footer a {
+    color: #000;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.post-content{
+  text-align: justify;
+  max-width: 75vw;
+  padding: 2rem 1rem;
+  margin: 0 auto;
+  /* background-color: aqua; */
+}
+blockquote {
+    font-family: 'Georgia', serif;
+    border-left: 4px solid #ccc;
+    margin: 20px 0;
+    padding-left: 15px;
+  }
+
+  blockquote p {
+    font-size: 1.5em;
+    margin: 0;
+  }
+
+  blockquote p.italic {
+    font-size: 1.2em;
+    font-style: italic;
+    margin: 0;
+  }
+
+  blockquote footer {
+    text-align: right;
+    font-size: 0.9em;
+    margin-top: 10px;
+  }
+
+ /* Apply Kalam Font Globally */
+* {
+    font-family: 'Kalam', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #f8f9fa;
+    font-size: 20px;
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 700;
+    color: #333;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #d63384;
+}
+
+/* User Banner */
+.user-banner {
+    background-color: #ffcc80;
+
+}
+
+
+.user-banner h3 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #6d4c41;
+}
+
+/* Quote Section */
+blockquote {
+    font-size: 22px;
+    font-weight: 400;
+    color: #4a4a4a;
+}
+
+blockquote .italic {
+    font-style: italic;
+}
+
+/* Blog Post Container */
+.container {
+    max-width: 900px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+    font-weight: 700;
+    color: #d63384;
+}
+
+.card p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #f8f9fa;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 15px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #d63384;
+    font-weight: 700;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.card-img-top {
+    width: 100%;       /* Ensures the image fills the width of the card */
+    height: 169px;     /* Set a fixed height (adjust as needed) */
+    object-fit: cover; /* Crops the image to fill the container without distortion */
+}
